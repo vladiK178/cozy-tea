@@ -1,0 +1,138 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.navbar {
+  min-height: 69px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+}
+
+.logopic {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.navlinks ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navlinks li {
+  margin-right: 15px;
+}
+
+#Mission {
+  height: 700px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  background-image: url(resources/images/img-mission-background.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missionstatement {
+  width: 100%;
+  padding: 5px;
+}
+
+.missionstatement h2 {
+  margin: 10px;
+}
+
+.totm {
+  text-align: center;
+  margin: 80px auto;
+}
+
+.totm h2,
+.totm h4 {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto 30px;
+}
+
+.berryblitz,
+.spiced-rum,
+.donut,
+.myrtle-ave,
+.bedford {
+  width: 300px;
+  margin: 0 10px;
+}
+
+.totmpic p {
+  margin: 10px auto 20px;
+  font-weight: bold;
+}
+
+#Locations {
+  background-image: url(resources/images/img-locations-background.webp);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  max-width: 1200px;
+  display: flex;
+  margin: 15px auto;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Locations h2 {
+  background-color: transparent;
+  text-align: center;
+  flex-basis: 100%;
+}
+
+.box {
+  flex-basis: 300px;
+  margin: 15px 40px;
+  line-height: 1.7;
+  text-align: center;
+  opacity: 1;
+}
+
+#Contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  vertical-align: middle;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  line-height: 2;
+}
+
+#Footer {
+  margin: 20px;
+}
