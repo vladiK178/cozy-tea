@@ -1,5 +1,6 @@
 # cozy-tea
-Project from Codecademy where we create a cafe's website from design specs. Thanks for stopping by!
+Project from Codecademy where we create a cafe's website from design specs. My first flexbox site I created. Thanks for stopping by!
+See it [here](https://github.com/vladiK178/cozy-tea/deployments/github-pages)
 
 ![example](img-tea-cozy-redline.png)
 
